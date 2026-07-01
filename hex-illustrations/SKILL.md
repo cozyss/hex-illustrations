@@ -1,9 +1,9 @@
 ---
-name: ian-solid-illustrations
-description: "Generate hex-bodied Solid-style English article illustrations. Use for English articles, blog posts, Notion docs, essays, product thinking, workflows, methods, processes, structures, states, metaphors, viewpoints, illustration planning, shot lists, image generation, title removal, or image edits. Default style: hexagon-bodied Solid IP, pure white hand-drawn line art, sparse red/orange/blue English handwritten annotations, clean but strange explanatory visuals."
+name: hex-illustrations
+description: "Generate hex-bodied Solid-style English article illustrations. Use for English articles, blog posts, Notion docs, essays, product thinking, workflows, methods, processes, structures, states, metaphors, viewpoints, rough visual ideas, user-supplied illustration concepts, illustration planning, shot lists, image generation, title removal, or image edits. Default style: hexagon-bodied Solid IP, pure white hand-drawn line art, annotation-light visuals, clean but strange explanatory metaphors."
 ---
 
-# Ian Solid Article Illustrations
+# hex-illustrations
 
 ## Core Purpose
 
@@ -45,11 +45,23 @@ If the user asks to analyze, plan, or decide where to illustrate, provide a shot
 - structure type
 - what Solid is doing
 - suggested visual elements
-- suggested English annotation labels
+- user-supplied visual direction, if any, and how it was improved
+- how the illustration can be understood without annotations
+- annotation need: none / optional / necessary, with reason
 
 Default to 4-8 images. Use 1-3 for short pieces. Even for long articles, avoid exceeding 9 unless the user explicitly asks. Make the illustrations selective, not a picture book version of the text.
 
-### 3. Generate Single Images
+### 3. Improve User-Supplied Visual Ideas
+
+If the user starts with their own sketch, scene idea, metaphor, or desired final look, treat it as useful visual direction, not as an instruction to copy every detail.
+
+First identify the intended meaning behind the user's idea. Separate explicit must-keep details from flexible details; if the user did not say what is mandatory, infer conservatively. Pressure-test the idea against the article's core argument, `references/style-dna.md`, `references/solid-ip.md`, and the rule that one image should express one core structure.
+
+Improve the idea by simplifying anything too literal, too full, too PPT-like, too label-dependent, or too decorative. Preserve the user's strongest visual insight, but freely adjust the composition, props, labels, structure type, and Solid's action so the final image feels like a clean strange explanatory metaphor. Convert abstract parts into a physical action, a low-tech object, and Solid doing the core work.
+
+When planning, briefly state what changed from the user's rough idea and why. If the user asks to generate images, generate the improved version directly unless they specifically ask to approve the refinement first.
+
+### 4. Generate Single Images
 
 If the user explicitly asks to generate, output, make, or create images, do not wait for confirmation. Use the built-in `image_gen` tool and generate each image separately. Do not combine multiple images into one grid.
 
@@ -58,26 +70,27 @@ Each image should express one core structure. The prompt must include:
 - 16:9 horizontal English article illustration
 - pure white background
 - black hand-drawn line art
-- sparse red/orange/blue English handwritten annotations
+- visual-first, annotation-light composition; use 1-3 essential anchor labels when they clarify the core idea
 - lots of white space
 - Solid as the core action subject
 - no PPT, commercial illustration, childish cute style, complex architecture diagram, or top-left category title
 
 Do not copy previous examples. Examples calibrate line density, whitespace, color restraint, and Solid's level of participation. Do not reuse known compositions such as conveyor breakpoints, Solid pulling lines, material fish, handoff toolbox stamps, or common-pit paths unless the user explicitly asks to replicate a specific image. Invent a fresh, low-tech, strange-but-legible metaphor from the current text every time.
 
-### 4. Check And Iterate
+### 5. Check And Iterate
 
 After generation, check `references/qa-checklist.md`. Regenerate or edit first if:
 
 - Solid is decorative
 - the canvas is too full
 - the image feels like a flowchart or PPT slide
+- the English labels are doing work the metaphor should do
 - the English labels are too many, too long, misspelled, or unreadable
 - a top-left title appears, such as "Workflow", "System Map", "Common Mistakes", or "Roadmap"
 - the style is too cute, childish, stiff, or commercial
 - the background is not clean white
 
-### 5. Save And Deliver
+### 6. Save And Deliver
 
 If the user is working inside a workspace, save final PNGs to:
 

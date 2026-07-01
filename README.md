@@ -1,4 +1,4 @@
-# Ian Xiaohei Illustrations
+# hex-illustrations
 
 > Turn the judgments, processes, states, and metaphors inside English articles into clean, strange, hand-drawn body illustrations.
 >
@@ -8,7 +8,7 @@
 
 ## What This Repository Is
 
-Ian Xiaohei Illustrations is a Codex Skill that guides AI agents to create body illustrations for English articles, essays, blog posts, Notion docs, and method-oriented writing.
+hex-illustrations is a Codex Skill that guides AI agents to create body illustrations for English articles, essays, blog posts, Notion docs, and method-oriented writing.
 
 It is not a generic illustration prompt and not a PPT infographic template. Its core job is to understand the cognitive anchor in the article first, then turn one judgment, process, structure, state, or metaphor into a memorable 16:9 hand-drawn explanatory image.
 
@@ -72,37 +72,37 @@ This skill uses Ian's "Solid strange body illustration" style:
 
 ## Example Calibration
 
-### Two Breakpoints
+### Smartest One Locked In
 
-![Two Breakpoints](examples/images/01-two-breakpoints.png)
+![Smartest One Locked In](hex-illustrations/assets/examples/01-smartest-one-locked-in.png)
 
-### Sort By Purpose
+### Borrowed To Its Own
 
-![Sort By Purpose](examples/images/02-sort-by-purpose.png)
+![Borrowed To Its Own](hex-illustrations/assets/examples/02-borrowed-to-its-own.png)
 
-### One Source, Many Uses
+### One Brain Runs Company
 
-![One Source, Many Uses](examples/images/03-one-fish-many-uses.png)
-
-### Handoff Path
-
-![Handoff Path](examples/images/04-handoff-path.png)
-
-### Information Well
-
-![Information Well](examples/images/05-information-well.png)
+![One Brain Runs Company](hex-illustrations/assets/examples/03-one-brain-runs-company.png)
 
 ### Idea Press
 
-![Idea Press](examples/images/06-idea-press.png)
+![Idea Press](hex-illustrations/assets/examples/06-idea-press.png)
 
 ### Content Fermentation
 
-![Content Fermentation](examples/images/07-content-fermentation.png)
+![Content Fermentation](hex-illustrations/assets/examples/07-content-fermentation.png)
 
-### Trust Bridge
+### Means To Act
 
-![Trust Bridge](examples/images/08-trust-bridge.png)
+![Means To Act](hex-illustrations/assets/examples/solid-v2-01-means-to-act.png)
+
+### Borrowed Identity
+
+![Borrowed Identity](hex-illustrations/assets/examples/solid-v2-03-borrowed-identity.png)
+
+### Own Card Deploy
+
+![Own Card Deploy](hex-illustrations/assets/examples/solid-v2-04-own-card-deploy.png)
 
 These images are style calibration examples, not composition templates. Some bundled samples were originally made with Chinese labels; for English usage, generate fresh English handwritten labels and fresh metaphors from the current article.
 
@@ -113,21 +113,21 @@ These images are style calibration examples, not composition templates. Some bun
 Clone the repository:
 
 ```bash
-git clone https://github.com/helloianneo/ian-xiaohei-illustrations.git ian-solid-illustrations
-cd ian-solid-illustrations
+git clone https://github.com/helloianneo/ian-xiaohei-illustrations.git hex-illustrations
+cd hex-illustrations
 ```
 
 Copy the skill folder into your Codex skills directory:
 
 ```bash
 mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
-cp -R ./ian-solid-illustrations "${CODEX_HOME:-$HOME/.codex}/skills/"
+cp -R ./hex-illustrations "${CODEX_HOME:-$HOME/.codex}/skills/"
 ```
 
 Then use it in Codex:
 
 ```text
-Use $ian-solid-illustrations to design and generate 5 Solid body illustrations for this English article.
+Use $hex-illustrations to design and generate 5 Solid body illustrations for this English article.
 ```
 
 ---
@@ -137,7 +137,7 @@ Use $ian-solid-illustrations to design and generate 5 Solid body illustrations f
 ### Plan Illustrations Only
 
 ```text
-Use $ian-solid-illustrations. Do not generate images yet.
+Use $hex-illustrations. Do not generate images yet.
 Analyze where this English article deserves illustrations and output a shot list of about 5 images.
 For each image, include: placement, theme, core meaning, structure type, what Solid is doing, and suggested English annotation labels.
 
@@ -147,7 +147,7 @@ For each image, include: placement, theme, core meaning, structure type, what So
 ### Generate Article Body Illustrations
 
 ```text
-Use $ian-solid-illustrations to generate 4 Solid body illustrations for the English article below.
+Use $hex-illustrations to generate 4 Solid body illustrations for the English article below.
 Requirements: 16:9 horizontal, pure white background, black hand-drawn line art, sparse red/orange/blue English handwritten annotations.
 
 <paste article>
@@ -156,7 +156,7 @@ Requirements: 16:9 horizontal, pure white background, black hand-drawn line art,
 ### Generate One Image For One Idea
 
 ```text
-Use $ian-solid-illustrations to generate one body illustration for this idea:
+Use $hex-illustrations to generate one body illustration for this idea:
 
 Trust is not declared. It is built one piece of evidence at a time.
 
@@ -166,7 +166,7 @@ Make the scene strange but clean. Solid must perform the core action.
 ### Remove An Incorrect Title From An Image
 
 ```text
-Use $ian-solid-illustrations to edit this image.
+Use $hex-illustrations to edit this image.
 Remove the top-left "Workflow" title and underline. Preserve everything else.
 ```
 
@@ -200,17 +200,15 @@ The skill's workflow is:
 ├── assets/
 │   └── ian-wechat-qr.jpg
 ├── examples/
-│   ├── images/
-│   │   ├── 01-two-breakpoints.png
-│   │   ├── 02-sort-by-purpose.png
-│   │   └── ...
 │   └── prompts.md
-└── ian-solid-illustrations/
+└── hex-illustrations/
     ├── SKILL.md
     ├── agents/
     │   └── openai.yaml
     ├── assets/
     │   └── examples/
+    │       ├── 01-smartest-one-locked-in.png
+    │       └── ...
     └── references/
         ├── style-dna.md
         ├── solid-ip.md
@@ -222,7 +220,7 @@ The skill's workflow is:
 The installable skill is the subdirectory:
 
 ```text
-ian-solid-illustrations/
+hex-illustrations/
 ```
 
 The root README, LICENSE, NOTICE, and examples are GitHub-facing documentation.

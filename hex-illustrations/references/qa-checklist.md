@@ -10,7 +10,8 @@
 - The image is strange, inventive, and memorable.
 - The layout is clean; the subject uses no more than about 60% of the canvas.
 - One image expresses one core structure.
-- English annotations are sparse, short, readable, and spelled correctly.
+- The image can be understood primarily from the metaphor, objects, Solid's action, and composition.
+- English annotations are limited to essential anchor labels; they are sparse, short, readable, and spelled correctly.
 - Orange is used only for the main path, flow, or arrows.
 - Red is used only for emphasis, problems, warnings, or results.
 - Blue is used only for secondary notes, feedback, or system state.
@@ -25,6 +26,7 @@ Regenerate or edit if any of these appear:
 - The image looks like a PPT slide, course page, formal diagram, or standard infographic.
 - Too many elements, arrows, or nodes.
 - Text becomes paragraph-like explanation.
+- Labels explain everything instead of anchoring the visual metaphor.
 - Background has paper texture, shadows, gradients, beige tone, or noise.
 - Realistic UI screenshot or tech-dashboard aesthetic.
 - English labels are misspelled, too long, or unreadable.
@@ -34,7 +36,8 @@ Regenerate or edit if any of these appear:
 ## Iteration Methods
 
 - Too ordinary: make Solid the action subject and add a strange but legible metaphor.
-- Too complex: remove nodes and keep one action with 3-5 short labels.
+- Too annotation-heavy: keep only the 1-3 labels that anchor the core contrast, then strengthen the metaphor, object choice, and Solid's action.
+- Too complex: remove nodes and keep one clear visual action with 0-3 necessary labels.
 - Too cute: emphasize deadpan, blank serious expression, not cute, not mascot.
 - Too PPT-like: remove titles, grids, formal boxes, and excessive arrows; turn it into a hand-drawn scene.
 - Too similar to old examples: keep the meaning but change the main object and Solid's action.
@@ -43,5 +46,7 @@ Regenerate or edit if any of these appear:
 ## Delivery Standard
 
 A strong image should make the reader think "that's odd" first, then understand the structure within one second.
+
+Before accepting an image, ask whether it would still mostly make sense if all labels were removed. If not, improve the visual metaphor. Then keep only the few labels that name the core abstraction or missing capability.
 
 If the first impression is a tutorial slide instead of a strange product sketch on white paper, it fails.
