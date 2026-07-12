@@ -47,3 +47,5 @@ Blue is optional. Use color sparingly. Less is usually better.
 Strange, inventive, memorable, clean, concise, and imaginative.
 
 Not cute, childish, overloaded, or stiff.
+
+Warmth comes from Solid's earnest effort against an awkward physical constraint, not from a cute face. Use scale mismatch, reach, balance, or one safe instability; keep the expression blank and the body hexagonal.

@@ -62,6 +62,10 @@ Invent from the current text every time. Do not copy old images.
 2. Turn the system structure into a low-tech object: broken machine, cardboard box, drawer, pipe, mailbox, odd dial, scale, well, ladder, weird workstation, hatch, pulley, stamp, clamp.
 3. Make Solid perform the action: trapped inside the machine, pulling the wrong wire, guarding a gate, carrying, repairing, weighing, holding a ladder, recording, pushing something into a strange device.
 
+## Causal Hinge
+
+For acquire -> assemble -> act, show one missing part, Solid closing the gap, and one visible consequence. Keep all three in one scene. The gap creates narrative; the consequence proves agency.
+
 ## Object Pool
 
 - cardboard box, drawer, old machine, funnel, scale, mailbox, door, well, ladder, pipe, wire ball, gate, turntable, black box, hole punch, pasta press, clothesline, odd workstation, clamp, pulley, hatch.
@@ -89,5 +93,6 @@ Unless the user explicitly says "copy this", "use this composition", or "make it
 - three Solids holding a megaphone / building a bridge / opening a door
 - Solid stamping a copywriting toolbox
 - Solid holding a sign near a common-pit path
+- Solid on a rolling stool reaching for a handset on a tool shelf connected to warehouses
 
 For similar themes, change the metaphor. A "handoff path" does not have to be a route; it can be Solid stitching the tail of one content object to a door handle. "One source, many uses" does not have to be a fish; it can be Solid pressing one paper ball into several tool shapes.

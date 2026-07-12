@@ -6,6 +6,7 @@
 - Clean pure white background.
 - Solid is present with a readable hexagon body silhouette.
 - Solid performs the core action instead of decorating the scene.
+- For causal ideas, one visible gap and consequence make Solid the hinge.
 - The image invents a new metaphor for the current article instead of copying an old example composition.
 - The image is strange, inventive, and memorable.
 - The layout is clean; the subject uses no more than about 60% of the canvas.
